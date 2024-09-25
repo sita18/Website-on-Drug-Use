@@ -1,0 +1,91 @@
+.container {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "navbar navbar navbar"
+        "heading heading heading"
+        "text1 text1 text1"
+        "img1 img2 img3" 
+         "text2 text2 text2"
+        "footer footer footer"
+}
+
+.navbar {
+     grid-area: navbar;
+     background-color: darkgrey;
+     padding: 50px;
+     text-align:center ;
+     font-size: x-large;
+
+}
+
+
+.navbar ul {
+        list-style-type: none;
+        font-size: x-large;
+        
+}
+
+.navbar li {
+        display: inline;
+        padding: 50px; ;
+        background-color: darkgrey;
+        font-size: x-large;
+}
+
+
+/*.navbar a {
+
+}*/
+
+.heading {
+        grid-area: heading ;
+        background-color: beige;
+        text-align:center ;
+        font-size: 60px;
+       
+}
+
+.text1 {
+        grid-area: text1;
+        background-color: beige;
+        padding:20px;
+        text-align:center ;
+       
+}
+
+.img1{ 
+        grid-area: img1;
+        background-color: beige;
+      
+}
+
+.text2{
+        grid-area: text2;
+        background-color:beige;
+        padding:20px;
+        text-align:center ;
+}
+
+
+
+.img2{
+        grid-area: img2;
+        background-color: beige;
+}
+
+.img3{
+        grid-area: img3;
+        background-color: beige;
+}
+
+.footer{
+        grid-area: footer;
+        background-color:darkgrey;
+        text-align:left ;
+        font-style: italic;
+        font-size: xx-large;
+        
+}
+
