@@ -83,7 +83,7 @@
 .footer{
         grid-area: footer;
         background-color:darkgrey;
-        text-align:left ;
+        text-align:center ;
         font-style: italic;
         font-size: xx-large;
         
